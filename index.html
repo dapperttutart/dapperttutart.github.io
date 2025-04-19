@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>DAPPERTUTT'ART</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
+    </head>
+
+    <body>
+
+    <!-- Pop-up bar -->
+    <nav class="w3-sidebar w3-blue w3-animate-top w3-xxxlarge" style="display:none;padding-top:150px" id="mySidebar">
+      <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-blue w3-hover-blue w3-xxxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+        <i class="fa fa-remove"></i>
+      </a>
+      <div class="w3-bar-block w3-right">
+        <a href="tutor.html" class="w3-bar-item w3-button w3-text-black w3-hover-white">UN'ARTISTA FANTASTICA</a>
+      </div>
+    </nav>
+
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-content" style="max-width:1500px">
+
+      <!-- Header -->
+      <div class="w3-opacity">
+        <span class="w3-button w3-xxxlarge w3-white w3-hover-white w3-right" onclick="w3_open()"><i class="fa fa-bars w3-text-blue"></i></span> 
+        <div class="w3-clear"></div>
+        <header class="w3-center w3-margin-bottom w3-animate-top w3-text-blue">
+          <h1><b>DAPPERTUTT'ART</b></h1>
+          <p><b>Per tutti i appassionati dell'art</b></p>
+          <p class="w3-padding-32"><button class="w3-button w3-blue w3-hover-grey" onclick="myFunction()">Visualizzare i margini</button></p>
+        </header>
+      </div>
+
+      <!-- Photo Grid -->
+      <div class="w3-row" id="myGrid" style="margin-bottom:128px">
+
+        <div class="w3-third">
+
+          <div class="w3-padding-small w3-margin" style="border:10px solid lightblue; border-radius: 30px;">
+            <a href="roma.html"><img src="images/Roma/7.jpg" style="width:100%; border-radius: 20px"></a>
+            <p class="w3-center w3-xlarge">Roma</p>
+          </div>
+          
+          <div class="w3-padding-small w3-margin" style="border:10px solid lightblue; border-radius: 30px;">
+            <a href="milano.html"><img src="images/Milano/Maria Milano.webp" style="width:100%; border-radius: 20px"></a>
+            <p class="w3-center w3-xlarge">Milano</p>
+          </div>
+
+          <div class="w3-padding-small w3-margin" style="border:10px solid lightblue; border-radius: 30px;">
+            <a href="napoli.html"><img src="images/Napoli/image (10).png" style="width:100%; border-radius: 20px"></a>
+            <p class="w3-center w3-xlarge">Napoli</p>
+          </div>
+
+        </div>
+
+        <div class="w3-third">
+
+          <div class="w3-padding-small w3-margin" style="border:10px solid lightblue; border-radius: 30px;">
+            <a href="bologna.html"><img src="images/Bologna/unnamed (1).png" style="width:100%; border-radius: 20px"></a>
+            <p class="w3-center w3-xlarge">Bologna</p>
+          </div>
+
+          <div class="w3-padding-small w3-margin" style="border:10px solid lightblue; border-radius: 30px;">
+            <a href="venezia.html"><img src="images/Venezia/6.png" style="width:100%; border-radius: 20px"></a>
+            <p class="w3-center w3-xlarge">Venezia</p>
+          </div>
+
+          <div class="w3-padding-small w3-margin" style="border:10px solid lightblue; border-radius: 30px;">
+            <a href="dozza.html"><img src="images/Dozza/image (1).png" style="width:100%; border-radius: 20px"></a>
+            <p class="w3-center w3-xlarge">Dozza</p>
+          </div>
+
+        </div>
+
+        <div class="w3-third">
+
+          <div class="w3-padding-small w3-margin" style="border:10px solid lightblue; border-radius: 30px;">
+            <a href="torino.html"><img src="images/Torino/6.jpg" style="width:100%; border-radius: 20px"></a>
+            <p class="w3-center w3-xlarge">Torino</p>
+          </div>
+
+          <div class="w3-padding-small w3-margin" style="border:10px solid lightblue; border-radius: 30px;">
+            <a href="genova.html"><img src="images/Genova/image (5).png" style="width:100%; border-radius: 20px"></a>
+            <p class="w3-center w3-xlarge">Genova</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    <!-- End Page Content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding w3-light-grey w3-center w3-large" style="margin-top:128px"> 
+      <p class="w3-small w3-text-blue">
+        Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-black w3-text-green">w3.css</a>
+      </p>
+    </footer>
+    
+    
+    </body>
+
+</html>

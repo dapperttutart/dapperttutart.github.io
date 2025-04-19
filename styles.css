@@ -1,0 +1,12 @@
+body,h1 {
+    font-family: "oswald", sans-serif
+}
+
+img {
+    margin-bottom: 0px;
+    margin-top: 6px
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px
+}
